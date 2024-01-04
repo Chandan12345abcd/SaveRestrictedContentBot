@@ -90,7 +90,7 @@ async def run_batch(userbot, client, sender, link, _range):
             if i < 25:
                 timer = 5
             else:
-                timer = 5
+                timer = 2
         try: 
             if not sender in batch:
                 await client.send_message(sender, "Batch completed.")
